@@ -1,4 +1,5 @@
 Image Cropper Field
+THIS IS A FORK FROM https://github.com/webbuilders-group/silverstripe-image-cropper-field
 =================
 
 Adds the ability to crop images from within the SilverStripe file section.
