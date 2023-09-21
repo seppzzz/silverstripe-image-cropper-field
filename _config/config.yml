@@ -12,4 +12,4 @@ SilverStripe\Admin\LeftAndMain:
     - "seppzzz/silverstripe-image-cropper-field: css/cropper.min.css"
     - "seppzzz/silverstripe-image-cropper-field: css/imagescropfield.css"
   extra_requirements_javascript:
-    - "seppzzz/silverstripe-image-cropper-field: javascript/boot/boot.js"
+    - "seppzzz/silverstripe-image-cropper-field: javascript/boot/boot_till.js"
