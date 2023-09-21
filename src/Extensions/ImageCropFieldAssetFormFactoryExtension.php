@@ -11,12 +11,13 @@ class ImageCropFieldAssetFormFactoryExtension extends Extension
     public function updateFormFields(FieldList $fields, $controller, $formName, $context)
     {
         $image = isset($context['Record']) ? $context['Record'] : null;
-
-        if ($image && $image->appCategory() === 'image') {
-            $fields->addFieldToTab(
-                'Editor.Crop',
-                ImageCropField::create($this->owner, 'crop', $image)
-            );
+        if($formName === 'fileEditForm'){
+            if ($image && $image->appCategory() === 'image') {
+                $fields->addFieldToTab(
+                    'Editor.Crop',
+                    ImageCropField::create($this->owner, 'crop', $image)
+                );
+            }
         }
     }
 }
