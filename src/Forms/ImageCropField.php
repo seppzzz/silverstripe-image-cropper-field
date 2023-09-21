@@ -1,6 +1,6 @@
 <?php
 
-namespace WebbuildersGroup\ImageCropField\Forms;
+namespace Seppzzz\ImageCropField\Forms;
 
 use SilverStripe\AssetAdmin\Controller\AssetAdmin;
 use SilverStripe\Assets\Image;
