@@ -5,11 +5,11 @@ After:
 ---
 SilverStripe\AssetAdmin\Forms\ImageFormFactory:
   extensions:
-    - WebbuildersGroup\ImageCropField\Extensions\ImageCropFieldAssetFormFactoryExtension
+    - Seppzzz\ImageCropField\Extensions\ImageCropFieldAssetFormFactoryExtension
 
 SilverStripe\Admin\LeftAndMain:
   extra_requirements_css:
-    - "webbuilders-group/silverstripe-image-cropper-field: css/cropper.min.css"
-    - "webbuilders-group/silverstripe-image-cropper-field: css/imagescropfield.css"
+    - "seppzzz/silverstripe-image-cropper-field: css/cropper.min.css"
+    - "seppzzz/silverstripe-image-cropper-field: css/imagescropfield.css"
   extra_requirements_javascript:
-    - "webbuilders-group/silverstripe-image-cropper-field: javascript/boot/boot.js"
+    - "seppzzz/silverstripe-image-cropper-field: javascript/boot/boot.js"
