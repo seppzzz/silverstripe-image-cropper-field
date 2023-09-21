@@ -1,10 +1,10 @@
 <?php
 
-namespace WebbuildersGroup\ImageCropField\Extensions;
+namespace Seppzzz\ImageCropField\Extensions;
 
 use SilverStripe\Core\Extension;
 use SilverStripe\Forms\FieldList;
-use WebbuildersGroup\ImageCropField\Forms\ImageCropField;
+use Seppzzz\ImageCropField\Forms\ImageCropField;
 
 class ImageCropFieldAssetFormFactoryExtension extends Extension
 {
